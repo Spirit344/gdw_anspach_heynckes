@@ -92,3 +92,9 @@ function listEvents(auth) {
         }
     });
 }
+// [END calendar_quickstart]
+
+module.exports = {
+    SCOPES,
+    listEvents,
+};

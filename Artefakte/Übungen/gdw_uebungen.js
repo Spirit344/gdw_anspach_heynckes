@@ -38,7 +38,7 @@ var aktAnzBewertungen = 44;
 var aktuelleSterneBewertung = "Die App ist sehr gut"
 */
 
-//neue Lösung
+//Neue Lösung
 const maxBewertung = 5;
 var aktAnzBewertungen = 4;
 var aktuelleSterneBewertung = 17;

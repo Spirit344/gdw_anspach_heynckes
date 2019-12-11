@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Spirit344/gdw_anspach_heynckes#readme",
   "dependencies": {
-    "googleapis": "^39.2.0"
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "request": "^2.88.0"
   }
 }

@@ -6,9 +6,19 @@ const mongoose = require("mongoose");
 
 //URL Paths
 const routes = require("./routes/routes");
+
+/*
+// local config
 const config = {
   db: "mongodb://localhost:27017/wgdb",
   port: 3000
+};
+*/
+
+// cloud config
+const config = {
+  db: "mongodb+srv://wg-helper:wg-helper@cluster0-dgie3.mongodb.net/test?retryWrites=true&w=majority",
+  port: process.env.PORT
 };
 
 //Server initialisieren
